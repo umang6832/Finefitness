@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vegetarian Diet Plan</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-success">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">FineFitness</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="bmi.html">BMI Calculator</a></li>
+        <li class="nav-item"><a class="nav-link active" href="#">Diet Plan</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Diet Plan Section -->
+<div class="container my-5">
+  <h2 class="text-center mb-4">Vegetarian Diet Plan</h2>
+
+  <div class="accordion" id="dietAccordion">
+
+    <!-- Breakfast -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingBreakfast">
+        <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBreakfast">
+          Breakfast (250–300 cal)
+        </button>
+      </h2>
+      <div id="collapseBreakfast" class="accordion-collapse collapse show" data-bs-parent="#dietAccordion">
+        <div class="accordion-body">
+          <ul>
+            <li>Option 1: Oats + skim milk + 1 fruit (apple/papaya)</li>
+            <li>Option 2: 50g roasted soya chunks</li>
+            <li>Option 3: 2 multigrain roti + 1 tbsp peanut butter</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Lunch -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingLunch">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseLunch">
+          Lunch (400 cal)
+        </button>
+      </h2>
+      <div id="collapseLunch" class="accordion-collapse collapse" data-bs-parent="#dietAccordion">
+        <div class="accordion-body">
+          <ul>
+            <li>2 medium roti (no ghee)</li>
+            <li>1 bowl dal (moong/masoor)</li>
+            <li>1 bowl sabzi (low oil)</li>
+            <li>1 bowl low-fat curd</li>
+            <li>Salad (cucumber, tomato, carrot)</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- Evening Snack -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingSnack">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSnack">
+          Evening Snack (100–150 cal)
+        </button>
+      </h2>
+      <div id="collapseSnack" class="accordion-collapse collapse" data-bs-parent="#dietAccordion">
+        <div class="accordion-body">
+          Green tea + roasted chana OR 1 fruit (guava, apple, pear)
+        </div>
+      </div>
+    </div>
+
+    <!-- Dinner -->
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingDinner">
+        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDinner">
+          Dinner (350–400 cal)
+        </button>
+      </h2>
+      <div id="collapseDinner" class="accordion-collapse collapse" data-bs-parent="#dietAccordion">
+        <div class="accordion-body">
+          <ul>
+            <li>2 roti or 1 bowl brown rice</li>
+            <li>1 bowl dal or 100g paneer/tofu</li>
+            <li>1 bowl sabzi (low oil)</li>
+            <li>Salad</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Tips -->
+  <div class="mt-4 p-3 bg-light rounded">
+    <h5>Tips:</h5>
+    <ul>
+      <li>Drink 3–4 liters of water daily</li>
+      <li>Sleep 7–8 hours</li>
+      <li>Avoid fried food, sweets, soft drinks</li>
+      <li>Eat slowly and avoid overeating</li>
+      <li>Optional: Intermittent fasting (12pm – 8pm)</li>
+    </ul>
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
